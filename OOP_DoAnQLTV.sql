@@ -70,16 +70,14 @@ create table tblThuThu
 --drop table tblThuThu
 
 -- Chèn dữ liệu bảng tblDocGia
-insert into tblDocGia values ('DG001',N'Vũ Đình Cần',N'Nam','15/06/2003','0974633324',N'Đà Nẵng',N'Sinh viên','...','DG001','123')
-insert into tblDocGia values ('DG002',N'Huỳnh Thanh Hải',N'Nam','14/04/2003','045693224',N'Đà Nẵng',N'Sinh viên','...','DG002','123')
-insert into tblDocGia values ('DG003',N'Thiều Sỹ Tùng',N'Nam','15/01/2003','0978633224',N'Đà Nẵng',N'Sinh viên','...','DG003','123')
-insert into tblDocGia values ('DG004',N'Trần Nam',N'Nam','11/03/2003','0974551224',N'Đà Nẵng',N'Sinh viên','...','DG004','123')
-insert into tblDocGia values ('DG005',N'Nguyễn Trãi',N'Nam','23/10/2003','0974688824',N'Đà Nẵng',N'Sinh viên','...','DG005','123')
-insert into tblDocGia values ('DG006',N'Nguyễn Xuân Phúc',N'Nam','15/10/2003','0974693111',N'Đà Nẵng',N'Sinh viên','...','DG006','123')
-insert into tblDocGia values ('DG007',N'Phạm Nguyễn Gia Hân',N'Nữ','20/11/2003','033393224',N'Đà Nẵng',N'Sinh viên','...','DG007','123')
-insert into tblDocGia values ('DG008',N'Lê Chí Trung',N'Nam','08/03/2003','0974697754',N'Đà Nẵng',N'Sinh viên','...','DG008','123')
-insert into tblDocGia values ('DG009',N'Lê Nguyễn Hồng Ngọc',N'Nữ','20/11/2003','0974694444',N'Đà Nẵng',N'Sinh viên','...','DG009','123')
-insert into tblDocGia values ('DG010',N'Nguyễn Vũ Hoàng',N'Nam','15/01/2003','0865693224',N'Đà Nẵng',N'Sinh viên','...','DG010','123')
+insert into tblDocGia values ('DG001',N'Nguyễn Hữu Huy Anh',N'Nam','15/06/2003','0974633324',N'Đà Nẵng',N'Sinh viên','...','DG001','123')
+insert into tblDocGia values ('DG002',N'Lê Đình Chính',N'Nam','14/04/2003','045693224',N'Đà Nẵng',N'Sinh viên','...','DG002','123')
+insert into tblDocGia values ('DG003',N'Hoàng Đăng Hải',N'Nam','15/01/2003','0978633224',N'Đà Nẵng',N'Sinh viên','...','DG003','123')
+insert into tblDocGia values ('DG004',N'Hồ Hữu Huy',N'Nam','11/03/2003','0974551224',N'Đà Nẵng',N'Sinh viên','...','DG004','123')
+insert into tblDocGia values ('DG005',N'Võ Long',N'Nam','23/10/2003','0974688824',N'Đà Nẵng',N'Sinh viên','...','DG005','123')
+insert into tblDocGia values ('DG006',N'Trần Khánh Nguyên',N'Nam','15/10/2003','0974693111',N'Đà Nẵng',N'Sinh viên','...','DG006','123')
+insert into tblDocGia values ('DG008',N'Võ Long',N'Nam','08/03/2003','0974697754',N'Đà Nẵng',N'Sinh viên','...','DG008','123')
+insert into tblDocGia values ('DG010',N'Bùi Minh Quân',N'Nam','15/01/2003','0865693224',N'Đà Nẵng',N'Sinh viên','...','DG010','123')
 
 -- Chèn dữ liệu bảng tblSach
 insert into tblSach values ('MS001',N'Lập trình Windown',N'Lập trình',N'Nguyễn Xuân Nam',N'NXB Hồng Bàng','2000','100','50000',N'Mới','...')
