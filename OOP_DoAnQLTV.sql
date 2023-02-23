@@ -1,8 +1,8 @@
-﻿use master
+use master
 go
-create database MHHDL_DoAnQLTV
+create database OOP_DoAnQLTV
 go
-use MHHDL_DoAnQLTV
+use OOP_DoAnQLTV
 
 -- Tạo bảng Độc Giả
 create table tblDocGia
@@ -70,16 +70,16 @@ create table tblThuThu
 --drop table tblThuThu
 
 -- Chèn dữ liệu bảng tblDocGia
-insert into tblDocGia values ('DG001',N'Vũ Đình Cần',N'Nam','15/06/1995','0974633324',N'115 Lê Đức Thọ, Gò Vấp',N'Sinh viên','...','DG001','123')
-insert into tblDocGia values ('DG002',N'Huỳnh Thanh Hải',N'Nam','14/04/1996','045693224',N'115 Nguyễn Oanh, Gò Vấp',N'Sinh viên','...','DG002','123')
-insert into tblDocGia values ('DG003',N'Thiều Sỹ Tùng',N'Nam','15/01/1995','0978633224',N'115 Lê Văn Thọ, Gò Vấp',N'Sinh viên','...','DG003','123')
-insert into tblDocGia values ('DG004',N'Trần Nam',N'Nam','11/03/1994','0974551224',N'115 Hồ Thị Hương, Tân Bình',N'Sinh viên','...','DG004','123')
-insert into tblDocGia values ('DG005',N'Nguyễn Trãi',N'Nam','23/10/1995','0974688824',N'119 Lê Đức Thọ, Gò Vấp',N'Sinh viên','...','DG005','123')
-insert into tblDocGia values ('DG006',N'Nguyễn Xuân Phúc',N'Nam','15/10/1995','0974693111',N'113 Lê Duẩn, Q1',N'Sinh viên','...','DG006','123')
-insert into tblDocGia values ('DG007',N'Phạm Nguyễn Gia Hân',N'Nữ','20/11/1993','033393224',N'784 Nguyễn Kiệm, Gò Vấp',N'Sinh viên','...','DG007','123')
-insert into tblDocGia values ('DG008',N'Lê Chí Trung',N'Nam','08/03/1995','0974697754',N'988 Quang Trung, Gò Vấp',N'Sinh viên','...','DG008','123')
-insert into tblDocGia values ('DG009',N'Lê Nguyễn Hồng Ngọc',N'Nữ','20/11/1995','0974694444',N'115 QL1, Q12',N'Sinh viên','...','DG009','123')
-insert into tblDocGia values ('DG010',N'Nguyễn Vũ Hoàng',N'Nam','15/01/1990','0865693224',N'111 Hà Huy Giáp, Q12',N'Sinh viên','...','DG010','123')
+insert into tblDocGia values ('DG001',N'Vũ Đình Cần',N'Nam','15/06/2003','0974633324',N'Đà Nẵng',N'Sinh viên','...','DG001','123')
+insert into tblDocGia values ('DG002',N'Huỳnh Thanh Hải',N'Nam','14/04/2003','045693224',N'Đà Nẵng',N'Sinh viên','...','DG002','123')
+insert into tblDocGia values ('DG003',N'Thiều Sỹ Tùng',N'Nam','15/01/2003','0978633224',N'Đà Nẵng',N'Sinh viên','...','DG003','123')
+insert into tblDocGia values ('DG004',N'Trần Nam',N'Nam','11/03/2003','0974551224',N'Đà Nẵng',N'Sinh viên','...','DG004','123')
+insert into tblDocGia values ('DG005',N'Nguyễn Trãi',N'Nam','23/10/2003','0974688824',N'Đà Nẵng',N'Sinh viên','...','DG005','123')
+insert into tblDocGia values ('DG006',N'Nguyễn Xuân Phúc',N'Nam','15/10/2003','0974693111',N'Đà Nẵng',N'Sinh viên','...','DG006','123')
+insert into tblDocGia values ('DG007',N'Phạm Nguyễn Gia Hân',N'Nữ','20/11/2003','033393224',N'Đà Nẵng',N'Sinh viên','...','DG007','123')
+insert into tblDocGia values ('DG008',N'Lê Chí Trung',N'Nam','08/03/2003','0974697754',N'Đà Nẵng',N'Sinh viên','...','DG008','123')
+insert into tblDocGia values ('DG009',N'Lê Nguyễn Hồng Ngọc',N'Nữ','20/11/2003','0974694444',N'Đà Nẵng',N'Sinh viên','...','DG009','123')
+insert into tblDocGia values ('DG010',N'Nguyễn Vũ Hoàng',N'Nam','15/01/2003','0865693224',N'Đà Nẵng',N'Sinh viên','...','DG010','123')
 
 -- Chèn dữ liệu bảng tblSach
 insert into tblSach values ('MS001',N'Lập trình Windown',N'Lập trình',N'Nguyễn Xuân Nam',N'NXB Hồng Bàng','2000','100','50000',N'Mới','...')
@@ -128,9 +128,9 @@ insert into tblHSPhieuMuon values ('MP010','DG006','MS006','04/12/2017','12/01/2
 */
 
 -- Chèn dữ liệu bảng tblDangNhap
-insert into tblThuThu values ('TT001',N'Vũ Đình Cần',N'Nam','15/06/1995','0974633324',N'115 Lê Đức Thọ, Gò Vấp','...','TT001','123')
-insert into tblThuThu values ('TT002',N'Nguyễn Như Trãi',N'Nam','15/06/1995','0974633324',N'115 Lê Đức Thọ, Gò Vấp','...','TT002','123')
-insert into tblThuThu values ('TT003',N'Thiều Sỹ Tùng',N'Nam','15/06/1995','0974633324',N'115 Lê Đức Thọ, Gò Vấp','...','TT003','123')
+insert into tblThuThu values ('TT001',N'Bùi Hoàng Nhân',N'Nam','07/08/2003','0974633324',N'Đà Nẵng','...','TT001','123')
+insert into tblThuThu values ('TT002',N'Hữu Hộc',N'Nam','15/06/2003','0974633324',N'Đà Nẵng','...','TT002','123')
+
 
 --delete from tblDangNhap
 
